@@ -1,0 +1,23 @@
+virtual-root=/
+
+source-filter=/usr/lib/cgit/filters/syntax-highlighting_custom.py
+
+about-filter=/usr/lib/cgit/filters/about-formatting.sh
+readme=:README.md
+
+root-title=bin public git
+root-desc=Get off my lawn.
+
+enable-http-clone=1
+enable-commit-graph=1
+
+logo=/bin_sm.png
+css=/cgit.css
+favicon=/favicon.ico
+
+footer=
+
+clone-url=https://pubgit.datacowboy.cf/$CGIT_REPO_URL ssh://git@pubgit.datacowboy.cf:5001/$CGIT_REPO_URL.git
+
+#scan-path=/samba/vault/roehr/git/
+include=/samba/vault/roehr/git/pub_repos
